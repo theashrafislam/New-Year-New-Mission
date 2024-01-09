@@ -1,3 +1,5 @@
+/* primary section  */
+
 * {
     margin: 0;
     padding: 0;
@@ -15,10 +17,11 @@ header {
     margin: 0 auto;
 }
 
+/* primary section  */
+
 /* Start Header Section  */
 
 .bannar-section {
-    /* background-image: ; */
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Bannerimage.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -47,7 +50,7 @@ header {
 }
 
 
-/* Start Header Section  */
+/* end Header Section  */
 
 /* Start Section  */
 
@@ -91,7 +94,10 @@ header {
     text-align: center;
 }
 
+/* end section  */
+
 /* Start Welcome Section  */
+
 #welcome-section {
     margin-bottom: 100px;
 }
@@ -142,9 +148,11 @@ button {
     padding: 50px 0;
 }
 
-/* Welcome Section  */
 
-#time-section {}
+/* Start Welcome Section  */
+
+/* Another Section  */
+
 
 .time-text p {
     text-align: center;
@@ -169,7 +177,10 @@ button {
     color: #F00;
 }
 
+/* Another Section  */
+
 /* Comeing Soon section  */
+
 .comeing {
     display: flex;
     justify-content: space-around;
@@ -241,6 +252,8 @@ button {
     height: 143px;
 }
 
+/* Comeing Soon section  */
+
 /* Holiday Section  */
 #holiday-section {
     margin-top: 80px;
@@ -287,7 +300,11 @@ button {
     display: flex;
 }
 
+
+/* Holiday Section  */
+
 /* Start Portfolio Section  */
+
 #portfolio {
     margin-top: 100px;
 }
@@ -307,7 +324,8 @@ button {
     font-weight: 900;
     margin-bottom: 22px;
 }
-.amet{
+
+.amet {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
@@ -316,63 +334,77 @@ button {
     width: 70%;
     margin-bottom: 20px;
 }
-.port-photos{
+
+.port-photos {
     display: flex;
     width: 1320px;
 }
-.port-photo img{
+
+.port-photo img {
     width: 70%;
     margin-bottom: 10px;
 }
-#portfolio-secton2{
+
+#portfolio-secton2 {
     margin-bottom: 100px;
 }
-/* end port */
+/* Start Portfolio Section  */
 
-#subscribe{
+/* Subscribe Section  */
+
+#subscribe {
     margin-top: 100px;
     margin-bottom: 100px;
 }
-.subscribe{
+
+.subscribe {
     text-align: center;
     border-radius: 16px;
-background: rgba(255, 0, 0, 0.05);
-padding: 80px 0;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px 0;
 }
-.sub-img{
+
+.sub-img {
     margin-bottom: 40px;
 }
-.sub{
+
+.sub {
     color: #070211;
-font-family: Merriweather;
-font-size: 36px;
-font-weight: 700;
-margin-bottom: 22px;
+    font-family: Merriweather;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 22px;
 }
-.conse{
+
+.conse {
     color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size:18px;
-line-height: 32px;
-max-width: 652px;
-margin: 0 auto;
-margin-bottom: 48px;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 32px;
+    max-width: 652px;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
-.subscribe input{
+
+.subscribe input {
     width: 486px;
     padding: 12px;
     font-size: 18px;
     border: none;
     border-radius: 50px 0px 0px 50px;
-background: #FFF;
+    background: #FFF;
 }
-.button-btn{
+
+.button-btn {
     margin-left: 0;
 }
-.real-footer{
-    background-color: #070211;;
+
+.real-footer {
+    background-color: #070211;
+    ;
 }
-.main-footer{
+
+.main-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -380,18 +412,22 @@ background: #FFF;
     border-bottom: 2px solid #ffffff26;
 }
 
+/* Subscribe Section  */
+
 /* Stat Footer Section  */
 
-.ffooter{
+.ffooter {
     padding: 50px 0;
 }
-.last{
+
+.last {
     color: #FFF;
-font-family: Inter;
-font-size: 18px;
-line-height: 40px;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 40px;
 }
-.icon-photos{
+
+.icon-photos {
     display: flex;
     gap: 15px;
     padding: 20px 0;
@@ -399,26 +435,33 @@ line-height: 40px;
     align-items: center;
     justify-content: center;
 }
-.icon-photos .i-p img{
+
+.icon-photos .i-p img {
     margin: 0 auto;
 }
-.last-step{
+
+.last-step {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
     padding: 20px 0;
 }
-.left p{
+
+.left p {
     color: #FFF;
-font-family: Inter;
-font-size: 18px;
+    font-family: Inter;
+    font-size: 18px;
 }
-.right p{
+
+.right p {
     color: #FFF;
-font-family: Inter;
-font-size: 18px;
+    font-family: Inter;
+    font-size: 18px;
 }
-footer{
+
+footer {
     padding: 70px 0;
 }
+
+/* end Footer Section  */
