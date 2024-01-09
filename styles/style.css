@@ -327,6 +327,7 @@ button {
 #portfolio-secton2{
     margin-bottom: 100px;
 }
+/* end port */
 
 #subscribe{
     margin-top: 100px;
@@ -395,6 +396,11 @@ line-height: 40px;
     gap: 15px;
     padding: 20px 0;
     border-bottom: 2px solid #ffffff26;
+    align-items: center;
+    justify-content: center;
+}
+.icon-photos .i-p img{
+    margin: 0 auto;
 }
 .last-step{
     display: flex;
